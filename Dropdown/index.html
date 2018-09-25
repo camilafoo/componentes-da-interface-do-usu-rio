@@ -10,6 +10,25 @@
     <link href="https://fonts.googleapis.com/css?family=Overlock+SC" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="Dropdown">
+        <button>Dropdown</button>
+        <ul>
+            <li><a href="#">Item 1</a></li>
+            <li><a href="#">Item 2</a></li>
+            <li><a href="#">Item 3</a></li>
+            <li><a href="#">Item 4</a></li>
+        </ul>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script>
+  $(document).ready(function(){
+      $('button').click(function(){
+        $('ul').toggleClass('active')
+      })
+  })
+  
+  </script>
+ 
 </body>
 </html>
